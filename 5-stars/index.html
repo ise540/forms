@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .empty {
+            color: white;
+            -webkit-text-stroke: black 1px;
+        }
+
+        .active {
+            color: yellow;
+            -webkit-text-stroke: black 1px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Отзыв</h1>
+    <form name="form">
+        <div class="star-container">
+            <i class="fa-solid fa-star empty"></i> 
+            <i class="fa-solid fa-star empty"></i>
+            <i class="fa-solid fa-star empty"></i>
+            <i class="fa-solid fa-star empty"></i>
+            <i class="fa-solid fa-star empty"></i>
+        </div>
+
+        <textarea name="review" placeholder="Введите текст..."
+            style="margin: 0px; width: 320px; height: 140px;"></textarea>
+
+        <button name="submit">Отправить</button>
+    </form>
+
+
+    <script src="./app.js"></script>
+    <script src="https://kit.fontawesome.com/af3c677fcb.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
